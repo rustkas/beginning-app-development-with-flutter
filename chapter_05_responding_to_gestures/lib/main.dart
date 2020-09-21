@@ -110,7 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
               title: Text('How to use this widget'),
               subtitle: Text(_helpText),
             ),
-            ButtonTheme.bar(
+            ButtonBarTheme(
               child: ButtonBar(
                 children: <Widget>[
                   FlatButton(
